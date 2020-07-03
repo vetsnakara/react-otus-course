@@ -1,5 +1,7 @@
-function greet(name: string): void {
-  console.log('Hello,', name)
+const a = 'hello'
+
+function hello(a: string) {
+  return a
 }
 
-greet('Kostya')
+hello(a)
